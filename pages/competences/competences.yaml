@@ -1,0 +1,23 @@
+language de dev :
+  - html: 2
+  - css: 1
+  - php: 1
+  - python: 5
+  - javascript: 3
+
+dev :
+  - sql: 3
+
+reseau :
+  - linux: 2
+  
+bureautique :
+  - excel: 3
+  - word: 3
+
+notation:
+  - minimum: 1
+  - maximum: 5
+
+
+
