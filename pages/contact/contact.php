@@ -1,6 +1,0 @@
-<!-- 
-numero
-gmail
-github
-linkedin
--->
