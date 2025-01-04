@@ -21,3 +21,26 @@ notation:
 
 
 
+domaine:
+  reseau :
+    - nom: linux
+      niveau: 2
+      
+  developpement:
+    - nom: Html
+      niveau: 2
+    - nom: Css
+      niveau: 1
+    - nom: Php
+      niveau: 1
+    - nom: Python
+      niveau: 5
+    - nom: javascript
+      niveau: 4
+ 
+  Bureautique:
+    - nom: Microsoft Excel
+      niveau: 4
+    - nom: Microsoft Word
+      niveau: 5
+      

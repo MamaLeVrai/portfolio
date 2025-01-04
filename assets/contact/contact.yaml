@@ -1,5 +1,22 @@
-
- Adresse de courriel de l’expéditeur:
- Objet du message:
- Contenu du message:
- Captcha pour éviter les robots:
+form:
+  titre: "Formulaire de Contact"
+  champs:
+    - label: "Nom de l'expéditeur"
+      name: "nom"
+      type: "text"
+      required: true
+    - label: "Adresse de courriel"
+      name: "email"
+      type: "email"
+      required: true
+    - label: "Objet du message"
+      name: "objet"
+      type: "text"
+      required: true
+    - label: "Contenu du message"
+      name: "message"
+      type: "textarea"
+      required: true
+  bouton: "Envoyer"
+  success_message: "Votre message a été envoyé avec succès. Merci de nous avoir contacté."
+  error_message: "Erreur lors de l'envoi du message. Veuillez réessayer."

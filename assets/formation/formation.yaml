@@ -1,7 +1,31 @@
-
-nom: BTS SIO
-etablissement: caen sup sainte-ursule
-date debut: 16/08/2024
-date fin:2026
-lieu: caen
-contenue de formation: programation
+diplome:
+  - lemonnier:
+    filiere: general 
+    option: math, NSI
+    etablissement: Institut Lemonnier
+    formation : Bac general
+    resultat : obtention
+    date debut: "2022"
+    date fin: "2026"
+    adresse: Rue d'Hérouville, Caen
+    contenu: c'est une formation qui reste vague mais sur l'aquel on effectue differents projet qui son axés sur le developpement orienté objet et les mathematique suivant le programme fournit par l'education national 
+  
+  - caensup:
+    filiere: BTS SIO 
+    option: SLAM
+    etablissement: CaenSup Sainte-Ursule
+    formation : développeur web
+    adresse: Rue de la miséricorde, Caen
+    date debut: "2024 "
+    date fin:  2026
+    contenu: Cette formation comporte de l'administration réseaux, du développement ainsi que de la cybersécurité.
+  
+  - college:
+    filiere: Collège
+    option: classe defence (propre a l'etablissement il s'agit d'une option en rapport avec les veterents de la seconde guerre mondiale) 
+    etablissement: saint louis
+    formation : Brevet
+    adresse: 58 Avenue de la Brèche Buhot – 14390 Cabourg
+    date debut: "2017 "
+    date fin:  2021
+    contenu: Obtention du Brevet avec mention assez bien
