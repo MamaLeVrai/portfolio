@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <title>Mes compétences</title>
-    <link href="../assets/stylesheet.css" rel="stylesheet" />
+    <link href="../../stylesheet.css" rel="stylesheet" />
   </head>
   <body>
    
   <?php
-  require_once("../yaml/yaml.php");
+require_once("../../yaml/yaml.php");
 
   // Données YAML
   $data = yaml_parse_file("/competences.yaml");
 
   // Affichage de la navigation
   echo "<nav class='left'>";
-  echo "<a href='../index.php'>Accueil</a>";
+  echo "<a href='../../index.php'>Accueil</a>";
   echo "</nav>";
 
   // Affichage des domaines et compétences

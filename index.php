@@ -11,7 +11,7 @@
   <?php
 // ACCUEIL
 require_once("yaml/yaml.php");
-$data = yaml_parse_file("data/index.yaml");
+$data = yaml_parse_file("assets/accueil/accueil.yaml");
 
 echo "<h1> Bienvenue sur le portfolio de ".$data["prenom"]." ".$data["nom"]." !"."</h1>";
 ?>
@@ -36,7 +36,7 @@ echo "<h1> Bienvenue sur le portfolio de ".$data["prenom"]." ".$data["nom"]." !"
 <?php
 // Charger les données de présentation depuis le fichier YAML
 require_once("./yaml/yaml.php");
-$data = yaml_parse_file("./data/presentation.yaml");
+$data = yaml_parse_file("assets/accueil/accueil.yaml");
 ?>
 
 <!-- Boîte de présentation -->
@@ -58,7 +58,7 @@ $data = yaml_parse_file("./data/presentation.yaml");
 // COMPETENCES
 require_once("./yaml/yaml.php");
 
-$data = yaml_parse_file("./data/competences.yaml");
+$data = yaml_parse_file("assets/competances/competences.yaml");
 echo "<h1>Mes Compétences</h1>";
 
 // Container principal pour les boîtes
@@ -112,7 +112,7 @@ echo "</div>"; // Fermeture du container principal
 <?php  //FORMATION
 
 require_once("./yaml/yaml.php");
-    $data = yaml_parse_file("./data/formation.yaml");
+    $data = yaml_parse_file("assets/formation/formation.yaml");
 
     echo "<h1>Ma Formation</h1>";
     echo "<div class='formation-container'>";
@@ -138,7 +138,7 @@ require_once("./yaml/yaml.php");
 <div id="realisations"></div>
 <?php
 require_once("./yaml/yaml.php");
-$data = yaml_parse_file("./data/realisation.yaml");
+$data = yaml_parse_file("assets/realisations/realisations.yaml");
 
 echo "<h1>Mes réalisations</h1>";
 
@@ -174,6 +174,7 @@ echo "</div>"; // Fermeture du conteneur principal
         <p>&copy; 2024 MARGUERAY Marius. Tous droits réservés.</p>
     </div>
 </footer>
+
 
 </body>
 </html>

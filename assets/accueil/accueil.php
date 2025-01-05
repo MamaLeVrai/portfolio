@@ -9,12 +9,11 @@
    
   <?php
 
-
 require_once("../../yaml/yaml.php");
 $data = yaml_parse_file("accueil.yaml");
 
 echo "<nav class='left'>";
-echo "<a href='../index.php'>Accueil</a>";
+echo "<a href='../../index.php'>Accueil</a>";
 echo "</nav>";
 
 
@@ -25,10 +24,6 @@ echo "<p>".$data["paragraphe"]."</p>";
 echo "<p> Ma phrase préférée : ".$data["accroche"]."</p>";
 
 echo "<img src='./../data/photo.jpg'/>"
-
-
-
-
 
 ?>
 
