@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Portfolio Louis Dumont-Derobert</title>
+    <title>Portfolio Marius MARGUERAY</title>
     <link href="assets/stylesheet.css" rel="stylesheet" />
   </head>
   <body>
