@@ -10,7 +10,7 @@
   <div id="accueil"></div>
   <?php
 // ACCUEIL
-require_once("yaml/yaml.php");
+require_once("yamlBiblio/yaml.php");
 $data = yaml_parse_file("assets/accueil/accueil.yaml");
 
 echo "<h1> Bienvenue sur le portfolio de ".$data["prenom"]." ".$data["nom"]." !"."</h1>";
