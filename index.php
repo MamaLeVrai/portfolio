@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Portfolio Marius MARGUERAY</title>
-    <link href="assets/stylesheet.css" rel="stylesheet" />
+    <link href="css/stylesheet.css" rel="stylesheet" />
   </head>
   <body>
     
