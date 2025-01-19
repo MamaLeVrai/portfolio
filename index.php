@@ -35,7 +35,7 @@ echo "<h1> Bienvenue sur le portfolio de ".$data["prenom"]." ".$data["nom"]." !"
 <div id='presentation'></div>
 <?php
 // Charger les données de présentation depuis le fichier YAML
-require_once("./yaml/yaml.php");
+require_once("./yamlBiblio/yaml.php");
 $data = yaml_parse_file("assets/accueil/accueil.yaml");
 ?>
 
@@ -49,16 +49,15 @@ $data = yaml_parse_file("assets/accueil/accueil.yaml");
             <p>Ma phrase préférée : <?php echo htmlspecialchars($data["accroche"]); ?></p>
         </div>
         <div class="presentation-image">
-            <img src="./data/photo.jpg" alt="Photo de <?php echo htmlspecialchars($data["prenom"]) . " " . htmlspecialchars($data["nom"]); ?>" />
+            <img src="./image/photo.jpg" alt="Photo de <?php echo htmlspecialchars($data["prenom"]) . " " . htmlspecialchars($data["nom"]); ?>" />
         </div>
     </div>
 </div>
 <div id='competences'></div>
 <?php
 // COMPETENCES
-require_once("./yaml/yaml.php");
-
-$data = yaml_parse_file("assets/competances/competences.yaml");
+require_once("./yamlBiblio/yaml.php");
+$data = yaml_parse_file("assets/competences/competences.yaml");
 echo "<h1>Mes Compétences</h1>";
 
 // Container principal pour les boîtes
@@ -111,7 +110,7 @@ echo "</div>"; // Fermeture du container principal
 <div id='formation'></div>
 <?php  //FORMATION
 
-require_once("./yaml/yaml.php");
+require_once("./yamlBiblio/yaml.php");
     $data = yaml_parse_file("assets/formation/formation.yaml");
 
     echo "<h1>Ma Formation</h1>";
@@ -130,14 +129,14 @@ require_once("./yaml/yaml.php");
             echo "</div>";
         }
     }
-    echo "<a href='./data/cv.png'>Télecharger mon CV</a>";
+    echo "<a href='./image/cv.png'>Télecharger mon CV</a>";
     echo "</div>";
 
 //REALISATIONS
 ?>
 <div id="realisations"></div>
 <?php
-require_once("./yaml/yaml.php");
+require_once("./yamlBiblio/yaml.php");
 $data = yaml_parse_file("assets/realisations/realisations.yaml");
 
 echo "<h1>Mes réalisations</h1>";
@@ -166,9 +165,9 @@ echo "</div>"; // Fermeture du conteneur principal
 <!-- FOOTER -->
 <footer>
     <div class="footer-content">
-        <a href="https://github.com/MamaLeVrai" target="_blank"><img class="liens" src="./data/github.png" alt="GitHub"></a>
-        <a href="https://www.instagram.com/ma_ma_du_14/" target="_blank"><img class="liens" src="./data/instagram.png" alt="Instagram"></a>
-        <a href="https://www.linkedin.com/in/marius-margueray-1024a82b6/" target="_blank"><img class="liens" src="./data/linkedin_black.png" alt="linkedin"></a>
+        <a href="https://github.com/MamaLeVrai" target="_blank"><img class="liens" src="./image/github.png" alt="GitHub"></a>
+        <a href="https://www.instagram.com/ma_ma_du_14/" target="_blank"><img class="liens" src="./image/instagram.webp" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/marius-margueray-1024a82b6/" target="_blank"><img class="liens" src="./image/linkedin_black.png" alt="linkedin"></a>
     </div>
     <div class="footer-copyright">
         <p>&copy; 2024 MARGUERAY Marius. Tous droits réservés.</p>

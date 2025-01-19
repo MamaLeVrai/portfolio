@@ -1,10 +1,10 @@
 realisations:
   - titre: "Mentions légales"
     description: "Page que j'ai créée à l'aide de HTML et CSS."
-    lien: "https://github.com/MamaLeVrai/bloc-1/blob/main/pages/td2/mentionlegales-2.html"
-    image: ""
+    lien: "https://github.com/MamaLeVrai/bloc-1/blob/main/pages/td2/mentions-legales.html"
+    image: "./image/mentions-legales.jpg"
 
-  - titre: "Pate à crèpe"
+  - titre: "calculatrice"
     description: "Page que j'ai créée à l'aide de HTML et CSS."
-    lien: "https://github.com/MamaLeVrai/bloc-1/blob/main/pages/td2/doc%20pates%20a%20crepes.html"
-    image: ""
+    lien: "https://github.com/MamaLeVrai/bloc-1/blob/main/pages/td4/calculatrice.html"
+    image: "./image/calculatrice.jpg"
